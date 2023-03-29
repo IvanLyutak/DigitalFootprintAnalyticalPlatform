@@ -1,0 +1,92 @@
+.UploadPage {
+    min-height: calc( 100vh - 120px );
+    width: 100%;
+    background-color: #F5F5F5;
+    margin-top: 0px;
+    display: block;
+}
+
+.UploadPage .formUploadModule {
+    width: 60%;
+    max-width: 600px;
+    background-color: white;
+    margin: 50px auto;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.UploadPage .labelUploadModule {
+    font-weight: 700;
+    font-size: 13pt;
+    margin-top: 20px;
+}
+
+.UploadPage .linkUploadModule {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.linkUploadModule .label {
+    text-align: left;
+}
+
+.linkUploadModule .input {
+    margin-top: 5px;
+}
+
+.UploadPage .nameUploadModule {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.nameUploadModule .label {
+    text-align: left;
+}
+
+.nameUploadModule .input {
+    margin-top: 5px;
+    height: 38px;
+}
+
+.UploadPage .typeUploadModule {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.typeUploadModule .label {
+    text-align: left;
+}
+
+.typeUploadModule .input {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.UploadPage .descriptionUploadModule {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.descriptionUploadModule .label {
+    text-align: left;
+}
+
+.descriptionUploadModule .input {
+    margin-top: 5px;
+}
+
+.UploadPage .buttonUploadModule {
+    width: 90%;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: white
+}
+
+@media (max-width: 770px) { 
+    .UploadPage .formUploadModule {
+        width: 90%;
+    }
+}

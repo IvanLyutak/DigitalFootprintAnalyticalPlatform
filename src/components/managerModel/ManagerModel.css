@@ -1,0 +1,65 @@
+.managerModel .titleManagerModel {
+    text-align: center;
+    width: 100%;
+}
+
+.managerModel .bodyManagerModel .title {
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+.managerModel .bodyManagerModel .type {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.managerModel .bodyManagerModel .type .type_title {
+    font-weight: 600;
+}
+
+.managerModel .buttonManagerModel {
+    width: 100%;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+.managerModel .labelOptions {
+    display: table;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.managerModel .labelDeveloperModule {
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+    font-weight: 600;
+}
+
+.managerModel .labelDateChangeModule {
+    display: table-cell;
+    text-align: right;
+    font-weight: 600;
+}
+
+.managerModel .textOptions {
+    display: table;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.managerModel .textDeveloperModule {
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+}
+
+.managerModel .textDateChangeModule {
+    display: table-cell;
+    text-align: right;
+}

@@ -1,0 +1,85 @@
+.analyticsPage {
+    min-height: calc( 100vh - 170px );
+}
+
+.analyticsPage .LabelModuleAnalytics {
+    margin-left: 10%;
+    font-weight: 700;
+    font-size: 16pt;
+    margin-top: 50px;
+    width: 80%;
+    text-align: left;
+}
+
+.analyticsPage .searchModule {
+    width: 80%;
+    height: 38px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.analyticsPage .name_module_input {
+    border-width: 0px;
+    height: 100%;
+    box-shadow: 0px 0px 3px rgba(0 ,0,0,0.3);
+}
+
+.analyticsPage .module_search_button {
+    height: 100%;
+    width: 100px;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.analyticsPage .bottomPartMenu {
+    display: table;
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.analyticsPage .dropdownSorted {
+    width: 250px;
+    box-shadow: 0px 0px 3px rgba(0 ,0,0,0.3);
+    border-radius: 5px;
+    height: 36px;
+    display: table-cell;
+    
+}
+
+.analyticsPage .foundView {
+    font-weight: 300;
+    font-size: 12pt;
+    display: table-cell;
+    width: calc( 100% - 250px );
+    text-align: right;
+}
+
+.analyticsPage .gridCards {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+    .analyticsPage .dropdownSorted {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .analyticsPage .dropdownSorted {
+        width: 150px;
+    }
+
+    .analyticsPage .foundView {
+        font-size: 11pt;
+        width: calc( 100% - 150px );
+    }
+
+    .analyticsPage .name_module_input {
+        font-size: 11pt;
+    }
+}

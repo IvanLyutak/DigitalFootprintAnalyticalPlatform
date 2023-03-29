@@ -1,0 +1,12 @@
+version: '3'
+services:
+   
+  api:
+    build: ./api
+    image: analytics-platform-api
+
+  client:
+    build: .
+    image: analytics-platform-client
+    ports:
+      - "3000:80"

@@ -1,0 +1,102 @@
+.resultsPage .mainResultsPage {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: calc( 100vh - 180px );
+    background-color: white;
+    box-shadow: 0px 0px 3px rgba(0 ,0,0,0.3);
+    border-radius: 20px;
+    display: table;
+}
+
+.resultsPage .mainResultsPage .configurationModel {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: calc( 100% - 40px );
+}
+
+.resultsPage .mainResultsPage .configurationModel .mainTitle {
+    font-size: 15pt;
+    font-weight: 600;
+    text-align: left;
+}
+
+.configurationModelData {
+    display: table;
+    margin-top: 10px;
+}
+
+.resultsPage .mainResultsPage .configurationModel .configurationModelData .titleData {
+    display: table-cell;
+    margin-top: 0px;
+}
+
+.resultsPage .mainResultsPage .configurationModel .configurationModelData .titleData .sourceData {
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.resultsPage .mainResultsPage .configurationModel .configurationModelData .titleData .modelData {
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.resultsPage .mainResultsPage .configurationModel .configurationModelData .nameData {
+    display: table-cell;
+    margin-top: 10px;
+}
+
+.resultsPage .mainResultsPage .configurationModel .configurationModelData .nameData .sourceText {
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.resultsPage .mainResultsPage .configurationModel .configurationModelData .nameData .modelText {
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.resultsPage .mainResultsPage .results {
+    box-shadow: 0px 0px 3px rgba(0 ,0,0,0.3);
+    min-height: calc( 100vh - 300px );
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 25px;
+    display: table;
+}
+
+.resultsPage .mainResultsPage .results .title {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc( 100% - 80px );
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+.resultsPage .mainResultsPage .results .table .tableData {
+    margin-left: 40px;
+    width: calc( 100% - 80px );
+}
+
+.resultsPage .mainResultsPage .graphs .title {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc( 100% - 80px );
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+.resultsPage .mainResultsPage .graphs .graphData {
+    width: calc( 100% - 80px );
+    margin-left: 40px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,63 @@
+
+.elementRightNavBar {
+    display: table;
+    margin-top: 1px;
+}
+
+.nameAccount {
+    color: white;
+    display: table-cell;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.dropdown-right {
+    display: table-cell;
+}
+
+.iconAccountImage {
+    border-radius: 5px;
+}
+
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#171e36 0,#002ABF 100%) !important;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nameAccount {
+        color: white; 
+    }
+
+    .elementRightNavBar {
+        margin: 10px auto;
+        width: 300px;
+    }
+
+    .dropdown-right {
+        max-width: 50px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .logo {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .nameAccount {
+        color: white; 
+    }
+
+    .elementRightNavBar {
+        margin: 10px auto;
+        width: 300px;
+    }
+
+    .dropdown-right {
+        max-width: 1000px;
+    }
+}

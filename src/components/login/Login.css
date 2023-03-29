@@ -1,0 +1,9 @@
+.authModal .titleAuthModal {
+    text-align: center;
+    width: 100%;
+}
+
+.authModal .authButton {
+    width: 100%;
+    color: black;
+}

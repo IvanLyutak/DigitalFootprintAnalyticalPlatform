@@ -1,0 +1,65 @@
+.viewStatusModule {
+    height: 40px;
+    margin-left: 67%;
+    width: 33%;
+    border-radius: 5px;
+    display: table;
+}
+
+.statusModule {
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    font-weight: 500;
+}
+
+.titleModule {
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 16pt;
+    margin-top: 30px;
+}
+
+.labelOptions {
+    display: table;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.labelDeveloperModule {
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+    font-weight: 600;
+}
+
+.labelDateChangeModule {
+    display: table-cell;
+    text-align: right;
+    font-weight: 600;
+}
+
+.textOptions {
+    display: table;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textDeveloperModule {
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+}
+
+.textDateChangeModule {
+    display: table-cell;
+    text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+    .statusModule {
+        font-size: 10pt;
+    }
+}
